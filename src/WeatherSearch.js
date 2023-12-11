@@ -24,6 +24,7 @@ export default function WeatherSearch() {
   function updateCity(event) {
     setCity(event.target.value);
   }
+
   let form = (
     <form name="weather search" onSubmit={handleSearch}>
       <input
